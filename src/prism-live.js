@@ -1,8 +1,7 @@
-
 {
 	let url, importURL = "./prism-live.mjs";
 	// Fall back to loading all languages
-	let search = "?load=css,javascript,markup";
+	let search = "?load=css,javascript,markup,sql";
 
 	try {
 		url = document.currentScript?.src ?? eval("import.meta.url");
